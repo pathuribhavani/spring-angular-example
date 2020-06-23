@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout') {
             steps{
-                git credentialsId: 'bhavani', url: 'https://github.com/pathuribhavani/hello-world'
+                git credentialsId: 'bhavani', url: 'https://github.com/pathuribhavani/spring-angular-example'
                 
             }
         }
